@@ -1,15 +1,10 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-
 using System.Configuration;
-using System.Collections.Specialized;
 
 /*
  Разработать консольное приложение, которое генерирует список случайных чисел диапозоном от -100 до 100 
@@ -22,7 +17,7 @@ using System.Collections.Specialized;
 адрес которого берется из файла конфигурации (требуется реализовать только отправку данных,
 поднимать сервер и реализовывать на его стороне приём и обработку данных не требуется). 
 Исходный код выложить в репозиторий Github и выслать нам его адрес ( сделать публичным ).
- * */
+*/
 
 
 namespace Rest_api
